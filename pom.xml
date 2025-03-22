@@ -52,14 +52,12 @@
                             <goal>install-node-and-npm</goal>
                         </goals>
                         <configuration>
-                            <nodeDownloadRoot>https://nodejs.org/dist</nodeDownloadRoot>
                             <nodeVersion>v20.16.0</nodeVersion>
                             <npmVersion>10.8.3</npmVersion>
                             <installDirectory>D:/Lab4/node</installDirectory>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>run tests</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
@@ -72,17 +70,16 @@
 
             <!-- Плагін для запуску тестів Java (для JUnit тестів) -->
             <plugin>
-
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>2.22.2</version>
-      <configuration>
-        <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
-        <testFailureIgnore>false</testFailureIgnore>
-        <forkCount>1</forkCount>
-        <reuseForks>false</reuseForks>
-      </configuration>
-    </plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <forkCount>1</forkCount>
+                    <reuseForks>false</reuseForks>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
