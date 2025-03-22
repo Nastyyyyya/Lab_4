@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/main/webapp/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.1.3/dist/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="./src/main/webapp/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container"></div>
+    </header>
+    <main>
+      <form class="search-form">
+        <input
+          type="text"
+          id="search-query"
+          class="search-input"
+          placeholder="Search for images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="loading">
+        <div class="loader"></div>
+      </div>
+
+      <div class="gallery"></div>
+      <button type="button" class="load-more">Load more</button>
+    </main>
+
+    <!-- Підключення axios через CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.1.3/dist/simple-lightbox.min.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
