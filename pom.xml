@@ -55,7 +55,7 @@
                             <nodeDownloadRoot>https://nodejs.org/dist</nodeDownloadRoot>
                             <nodeVersion>v20.16.0</nodeVersion>
                             <npmVersion>10.8.3</npmVersion>
-                            <installDirectory>D:/Lab2/node</installDirectory>
+                            <installDirectory>D:/Lab4/node</installDirectory>
                         </configuration>
                     </execution>
                     <execution>
