@@ -54,7 +54,7 @@
                         <configuration>
                             <nodeVersion>v20.16.0</nodeVersion>
                             <npmVersion>10.8.3</npmVersion>
-                            <installDirectory>D:/Lab4/node</installDirectory>
+                            <installDirectory>${project.build.directory}/node</installDirectory>
                         </configuration>
                     </execution>
                     <execution>
