@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="4.675">
+  <testsuite name="Pixabay API Functions" errors="0" failures="0" skipped="0" timestamp="2025-03-23T16:02:10" time="2.555" tests="7">
+    <testcase classname="Pixabay API Functions fetchImages should return data on successful API call with status 200" name="Pixabay API Functions fetchImages should return data on successful API call with status 200" time="0.01">
+    </testcase>
+    <testcase classname="Pixabay API Functions fetchImages should throw an error if no images are found" name="Pixabay API Functions fetchImages should throw an error if no images are found" time="0.056">
+    </testcase>
+    <testcase classname="Pixabay API Functions fetchImages should throw an error if API is down or inaccessible" name="Pixabay API Functions fetchImages should throw an error if API is down or inaccessible" time="0.03">
+    </testcase>
+    <testcase classname="Pixabay API Functions resetPage should set currentPage to 1" name="Pixabay API Functions resetPage should set currentPage to 1" time="0.002">
+    </testcase>
+    <testcase classname="Render Functions clearGallery should empty the gallery" name="Render Functions clearGallery should empty the gallery" time="0.055">
+    </testcase>
+    <testcase classname="Render Functions toggleLoadMoreButton should show and hide the button" name="Render Functions toggleLoadMoreButton should show and hide the button" time="0.011">
+    </testcase>
+    <testcase classname="Render Functions showLoadingIndicator should display and hide the loading element" name="Render Functions showLoadingIndicator should display and hide the loading element" time="0.017">
+    </testcase>
+  </testsuite>
+</testsuites>
